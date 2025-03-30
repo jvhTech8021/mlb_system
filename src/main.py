@@ -8,8 +8,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Try to use simple imports without src prefix
 try:
-from scraper import MLBScraper
-from analyzer import BettingAnalyzer
+    from scraper import MLBScraper
+    from analyzer import BettingAnalyzer
     from reporter import BetReporter
     from database import init_db, Game, get_session
 except ImportError:
@@ -482,7 +482,7 @@ def main():
                         if prev_game.home_team == team_name:
                             won = prev_game.home_score > prev_game.away_score
                             print(f"Found previous game for {team_name}: {'Won' if won else 'Lost'} {prev_game.home_score}-{prev_game.away_score} vs {prev_game.away_team}")
-    else:
+                        else:
                             won = prev_game.away_score > prev_game.home_score
                             print(f"Found previous game for {team_name}: {'Won' if won else 'Lost'} {prev_game.away_score}-{prev_game.home_score} @ {prev_game.home_team}")
                 
