@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Betting Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-baseball-ball"></i>
+                <h1>MLB Betting Analysis</h1>
+            </div>
+            <div class="date-selector">
+                <button id="prev-date"><i class="fas fa-chevron-left"></i></button>
+                <span id="current-date"></span>
+                <button id="next-date"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li class="active"><a href="#daily-analysis">Today's Analysis</a></li>
+                <li><a href="#best-bets">Best Bets</a></li>
+                <li><a href="#trends">Betting Trends</a></li>
+                <li><a href="#odds-tracker">Odds Tracker</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section id="summary-cards">
+                <div class="card">
+                    <h3>Games Analyzed</h3>
+                    <div class="big-number" id="games-analyzed">-</div>
+                </div>
+                <div class="card highlight">
+                    <h3>Matching Criteria</h3>
+                    <div class="big-number" id="games-matching">-</div>
+                </div>
+                <div class="card">
+                    <h3>Best Bet Strength</h3>
+                    <div class="big-number" id="best-strength">-</div>
+                </div>
+                <div class="card">
+                    <h3>YTD Record</h3>
+                    <div class="record" id="ytd-record">-</div>
+                </div>
+            </section>
+            
+            <section id="daily-analysis">
+                <h2>Today's Analysis <span class="date"></span></h2>
+                
+                <div class="games-container">
+                    <!-- Game cards will be dynamically generated here -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading games...</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="best-bets">
+                <h2>Best Bets</h2>
+                <div class="best-bets-container">
+                    <!-- Best bets will be dynamically generated here -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading best bets...</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="trends">
+                <h2>Betting Trends</h2>
+                <div class="charts-container">
+                    <div class="chart-card">
+                        <h3>Criteria Performance</h3>
+                        <canvas id="criteria-chart"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Monthly ROI</h3>
+                        <canvas id="monthly-chart"></canvas>
+                    </div>
+                </div>
+                <div class="trend-stats">
+                    <div class="stat-card">
+                        <h3>Criteria 1</h3>
+                        <div class="stat" id="criteria-1-stat">-</div>
+                        <div class="description">Road underdogs coming off a loss</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Criteria 2</h3>
+                        <div class="stat" id="criteria-2-stat">-</div>
+                        <div class="description">April underdogs after series losses</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Criteria 3</h3>
+                        <div class="stat" id="criteria-3-stat">-</div>
+                        <div class="description">Home dogs after high scoring</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 MLB Betting Analysis System | Data from The Odds API</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

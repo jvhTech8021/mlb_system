@@ -1,0 +1,23 @@
+{
+  "name": "MLB Betting Analysis System",
+  "description": "A system for analyzing MLB games and identifying betting opportunities based on historical patterns",
+  "repository": "https://github.com/yourusername/mlb_system",
+  "keywords": ["python", "flask", "mlb", "betting", "analytics"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "python initialize_db.py"
+  },
+  "env": {
+    "FLASK_ENV": {
+      "description": "Environment for Flask application",
+      "value": "production"
+    }
+  }
+} 

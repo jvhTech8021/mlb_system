@@ -1,0 +1,41 @@
+{
+  "test_date": "2025-03-26 23:03:51",
+  "scrape_file": "scrape_output_20250327.md",
+  "scrape_date": "2025-03-27",
+  "summary": {
+    "total_games_found": 28,
+    "successfully_parsed": 0,
+    "parsing_errors": 28
+  },
+  "games": [],
+  "errors": [
+    "Game 1: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 2: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 3: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 4: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 5: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 6: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 7: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 8: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 9: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 10: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 11: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 12: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 13: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 14: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 15: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 16: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 17: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 18: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 19: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 20: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 21: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 22: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 23: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 24: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 25: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 26: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 27: Error parsing game data: not enough values to unpack (expected 2, got 1)",
+    "Game 28: Error parsing game data: not enough values to unpack (expected 2, got 1)"
+  ]
+}

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: mlb-betting-system
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn api:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: FLASK_ENV
+        value: production
+    autoDeploy: true
+
+databases:
+  - name: mlb-db
+    databaseName: mlb_data
+    user: mlb_user
+    postDeploy: python initialize_db.py 

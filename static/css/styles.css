@@ -1,0 +1,100 @@
+/* Add styles for the detailed analysis */
+.toggle-details-btn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.toggle-details-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.detailed-analysis {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.criteria-detail {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.criteria-detail:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.criteria-detail h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.criteria-checks {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.criteria-checks li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.check-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.check-value {
+    color: #333;
+}
+
+.check-value:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.check-detail {
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
+
+.criteria-result {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.criteria-result.match {
+    background-color: rgba(76, 175, 80, 0.2);
+    color: #2e7d32;
+}
+
+.criteria-result.no-match {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #c62828;
+}
+
+.strength-value {
+    font-weight: bold;
+}
+
+/* ... existing CSS ... */ 

@@ -1,0 +1,125 @@
+{
+  "test_date": "2025-03-26 23:05:46",
+  "scrape_file": "test_results/debug/content_debug_20250327.txt",
+  "scrape_date": "2025-03-27",
+  "summary": {
+    "total_games_found": 14,
+    "successfully_parsed": 14,
+    "parsing_errors": 0
+  },
+  "games": [
+    {
+      "date": "2025-03-27",
+      "home_team": "Yankees",
+      "away_team": "Brewers",
+      "home_odds": 1.65,
+      "away_odds": 1.85,
+      "total": 8.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Blue Jays",
+      "away_team": "Orioles",
+      "home_odds": 1.91,
+      "away_odds": 2.11,
+      "total": 8.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Rangers",
+      "away_team": "Red Sox",
+      "home_odds": 2.0,
+      "away_odds": 2.2,
+      "total": 7.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Nationals",
+      "away_team": "Phillies",
+      "home_odds": 2.43,
+      "away_odds": 2.7,
+      "total": 7.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Padres",
+      "away_team": "Braves",
+      "home_odds": 2.1,
+      "away_odds": 2.91,
+      "total": 7.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Royals",
+      "away_team": "Guardians",
+      "home_odds": 1.77,
+      "away_odds": 1.97,
+      "total": 7.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "White Sox",
+      "away_team": "Angels",
+      "home_odds": 2.3,
+      "away_odds": 2.77,
+      "total": 8.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Astros",
+      "away_team": "Mets",
+      "home_odds": 1.74,
+      "away_odds": 1.94,
+      "total": 8.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Marlins",
+      "away_team": "Pirates",
+      "home_odds": 2.3,
+      "away_odds": 2.77,
+      "total": 6.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Reds",
+      "away_team": "Giants",
+      "home_odds": 1.91,
+      "away_odds": 2.11,
+      "total": 8.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Cardinals",
+      "away_team": "Twins",
+      "home_odds": 2.0,
+      "away_odds": 2.2,
+      "total": 7.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Dodgers",
+      "away_team": "Tigers",
+      "home_odds": 1.56,
+      "away_odds": 1.76,
+      "total": 6.5
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Mariners",
+      "away_team": "Athletics",
+      "home_odds": 1.59,
+      "away_odds": 1.79,
+      "total": 7.0
+    },
+    {
+      "date": "2025-03-27",
+      "home_team": "Diamondbacks",
+      "away_team": "Cubs",
+      "home_odds": 1.77,
+      "away_odds": 1.97,
+      "total": 8.5
+    }
+  ],
+  "errors": []
+}
